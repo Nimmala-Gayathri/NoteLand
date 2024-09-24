@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Note Land</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="notesList">
+    <div class="logo">
+      <img src="./book.png" alt="">
+      <h1>NOTE LAND</h1>
+    </div>
+    <div class="contents">
+    <!-- <div class="content">
+      <h4>Note Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, unde?</p>
+    </div>
+    <div class="content">
+      <h4>Note Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, unde?</p>
+    </div>
+    <div class="content">
+      <h4>Note Title</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, unde?</p>
+    </div> -->
+  </div>
+    <div class="notes">
+      <button id="note">New Note</button>
+    </div>
+  </section>
+  <section class="right">
+    <div class="img">
+      <div class="bottom">
+        <img src="./folderImg.png" alt="">
+        <h4>No Notes found</h4>
+      <p>Add Some Notes From The Left Column</p>
+      </div>
+    </div>
+    
+    <div class="createNotes">
+      <!-- <div class="createNote">
+        <input type="text" class='input' placeholder="Note Title">
+      <textarea name="" id="" cols="30" rows="10">Note Discription</textarea>
+      </div>
+      <div class="buttoncreate">
+        <button class="createbutton">Create Note</button>
+      </div> -->
+    </div>
+    <div class="editTheContent">
+      <div class="heading">
+        <div class="title">
+          <h4 id="editstitle"></h4>
+        </div>
+        <div class="clickbuttons">
+          <div class="editButton">
+            <button class="editButton">New Task</button>
+          </div>
+          <div class="deleteButton">
+            <button class="deleteButton">Delete Task</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="bodys">
+        <p id="editscontent">
+          <div id='formintro'>
+            <div class="secreatediv">
+              
+          <form id="form1" action="">
+            <div class="items">
+              <h4 style="color:rgb(18, 2, 90);">Task List</h4>
+              <p class="editoption">
+              <input type="radio"  name="radioOption" value="Project">Learning the Concepts</p>
+              <p class="editoption">
+                <input type="radio" name="radioOption" value="Project"> Practising the Assingnments</p>
+                <p class="editoption">
+                <input type="radio" name="radioOption" value="option1"> Working on Projects</p>
+              
+            <hr>
+            <p class="editoption">
+            <input id="input" type="checkbox">Learning HTML AND CSS</p>
+            <p class="editoption">
+            <input  id="input" type="checkbox">Project Review</p>
+            <p class="editoption">
+            <input  id="input" type="checkbox">Start Learning Javascript</p>
+          </form>
+        </div>
+        </div>
+        </p>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
